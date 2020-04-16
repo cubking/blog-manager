@@ -1,0 +1,73 @@
+.overflow_hidden {
+  overflow: hidden;
+}
+
+.position_fixed {
+  position: fixed;
+}
+.position_relative {
+  position: relative;
+}
+.position_absolute {
+  position: absolute;
+}
+
+.display_block {
+  display: block;
+}
+.display_inline_block {
+  display: inline-block;
+}
+.display_flex {
+  display: flex;
+}
+
+.max_width_height {
+  width: 100%;
+  height: 100%;
+}
+
+.margin_auto {
+  margin: 0 auto;
+}
+
+.text_white {
+  color: #fff;
+}
+.text_left {
+  text-align: left;
+}
+.text_right {
+  text-align: right;
+}
+
+.border_none {
+  border: none;
+}
+.border_radius {
+  border-radius: 50%;
+}
+
+.transform_center {
+  transform: translate(-50%, -50%);
+}
+
+.cursor_pointer {
+  cursor: pointer;
+}
+
+.justify_content_start {
+  justify-content: start;
+}
+.justify_content_end {
+  justify-content: end;
+}
+.justify_content_center {
+  justify-content: center;
+}
+.justify_content_space_between {
+  justify-content: space-between;
+}
+.align_items_center {
+  align-items: center;
+}
