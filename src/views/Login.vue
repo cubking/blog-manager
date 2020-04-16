@@ -1,5 +1,5 @@
 <template>
-  <div class="login position_fixed max_width_height">
+  <div class="login position_fixed max_width_height" :style="backgroundStyle">
     <transition name="el-zoom-in-center">
       <el-form
         class="login_form position_absolute transform_center"
@@ -71,6 +71,11 @@ export default {
     }
 
     return {
+      backgroundStyle: {
+        backgroundImage: `url("${require('../assets/imgs/login_bg.png')}")`,
+        backgroundPosition: 'center',
+        backgroundSize: 'cover'
+      },
       transition: false,
       userInfo: {
         username: '',
@@ -155,9 +160,6 @@ export default {
   bottom: 0;
   left: 0;
   right: 0;
-  background-image: url("../assets/imgs/login_bg.png");
-  background-position: center;
-  background-size: cover;
 }
 
 .login_form {

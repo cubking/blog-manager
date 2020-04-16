@@ -4,7 +4,7 @@ import Vuex from 'vuex'
 Vue.use(Vuex)
 
 let state = {
-  modules: 1
+  modules: 0
 }
 
 let mutations = {

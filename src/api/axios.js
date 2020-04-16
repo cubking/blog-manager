@@ -1,5 +1,9 @@
 import axios from 'axios'
 import { Message, Loading } from 'element-ui'
+import $config from '../config/config'
+
+axios.defaults.baseURL = $config.proxyUrl
+axios.defaults.withCredentials = false
 
 // 请求拦截
 axios.interceptors.request.use(
